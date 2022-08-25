@@ -25,7 +25,7 @@ export default function ConnectButton({ handleOpenModal }: Props) {
     >
       <Box px="3">
         <Text color="white" fontSize="md">
-          {etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)} TFuel
+          {etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)} MATIC
         </Text>
       </Box>
       <Button
