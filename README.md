@@ -77,6 +77,13 @@
 git clone https://github.com/barbarayler/MULTISENDER.git
 npm install
 ```
+## SETUP CONTRACT WITH HARDHAT
+```
+cd hardhat 
+yarn deploy:testnet // yarn deploy:mainnet
+# setup your smart contract or change network in hardhat.config.ts
+```
+
 RUN Localhost & RUN Productions Build
 
 ```
@@ -84,9 +91,3 @@ npm start
 npm run build
 ```
 
-## SETUP CONTRACT WITH HARDHAT
-```
-cd hardhat 
-yarn deploy:testnet // yarn deploy:mainnet
-# setup your smart contract or change network in hardhat.config.ts
-```
